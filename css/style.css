@@ -1,0 +1,238 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+
+    header,
+    main,
+    nav,
+    section,
+    footer{
+    display: block;
+    }
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: #ED4C5C;
+    padding-top: 59px;
+    padding-left: 50px;
+    padding-bottom: 55px;
+}
+
+#logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: 34.55px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 60.8px;
+    margin-left:51.45px;
+    height: 17.4px;
+}
+
+header a span {
+    width: 152px;
+    height: 22px;
+    padding-left:9.9px;
+    padding-top:59px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    align-items: center;
+}
+
+nav{
+    margin-left: 49px;
+    margin-top: 48px; 
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: #ffffff;
+    font-weight: bold;
+    padding:10px;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #ada8a8;
+}
+
+header img{
+    width: 445px;
+    height: 311px;
+    margin-left: 89px;
+    margin-top: 45px;
+    border-radius: 15px;
+}
+
+header button{
+    margin-top: 45px;
+    margin-left: 50px;
+    background: #FFFFFF;
+    width:160px;
+    height: 50px;
+    border-radius: 6px;
+    display:block;
+    border-style: none;
+    font-size:14px;
+    color:#ED4C5C;
+    font-weight: bold;
+}
+
+.Hobbies{
+    height:657px;
+    background-color:#ffffff;
+    position:relative;
+    z-index: -50;
+}
+
+.Hobbies h2{
+    padding-left:50px;
+    padding-top:56px;
+}
+
+.Hobbies p{
+    padding-left:50px;
+    padding-top:30px;
+    width: 445px;
+    height: 83px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.Hobbies a{
+    padding-top: 20px;
+    color: #ED4C5C;
+    display:block; 
+}
+
+#MoreInfo{
+    padding-left: 50px;
+    padding-bottom:20px;
+}
+
+.Cards 
+{
+    display:inline-block;
+    margin-right:30px;
+    margin-top: 40.72px;
+}
+
+.Cards img{
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
+    position:relative;
+    display: inline-block;
+    z-index: -20;
+}
+
+#Hiking{
+    margin-left:50px;
+}
+
+.Cards a{
+    color: #ED4C5C;
+    font-weight: bold;
+    margin-top:-40px;
+    text-align: center;
+    border-radius: 8px;
+    background-size:350px;
+    background-color: #FFFFFF;
+    height: 40px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.Tecnology{ 
+    padding-top: 57px;
+    background-color: #F5F4F4;
+    padding-bottom: 271px;
+    padding-left: 50px;
+}
+.Tecnology a{ 
+    color:#000000;
+}
+
+.Tecnology h2{
+    margin-bottom: 56px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.Tecnology .WhiteImages {
+    background-color: #FFFFFF;
+    width: 255px;
+    height: 226px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.Tecnology .WhiteImages img {
+    margin-top: 47px;
+    width: 80px;
+    height: 80px;
+}
+
+.Tecnology .WhiteImages h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Tecnology .WhiteImages p {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 34px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+footer {
+    padding-left: 50px;
+    padding-top: 29px;
+    padding-bottom: 19px;
+    height: 80px;
+    background-color: #ED4C5C;
+    display: flex;
+    font-weight: bold;   
+}
+
+footer a img {
+    margin-left: 26px;
+    margin-top: 30px;
+    width:28px;
+}
+
+footer span {
+    margin-left: 80px;
+    padding-top:29px;
+    font-size: 24px;
+    line-height: 29px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
